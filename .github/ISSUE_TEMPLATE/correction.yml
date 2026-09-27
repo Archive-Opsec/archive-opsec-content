@@ -1,0 +1,26 @@
+name: Correction
+description: Report a factual error, broken source, or misleading claim label.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Page or file
+      description: Link to the page or path in this repository.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Quote or describe the specific issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the source supporting the correction.
+    validations:
+      required: true

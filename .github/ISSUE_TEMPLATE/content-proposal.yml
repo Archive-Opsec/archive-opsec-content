@@ -1,0 +1,30 @@
+name: Content proposal
+description: Suggest a new guide, archive entry, source, or news digest.
+title: "[Proposal] "
+labels: [content-proposal]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide source links and describe what should be added. A proposal is reviewed before publication.
+  - type: input
+    id: subject
+    attributes:
+      label: Subject
+      description: What should Archive-Opsec document?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Prefer official statements, regulators, courts, standards bodies, or academic papers.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Give a short factual summary and identify anything uncertain.
+    validations:
+      required: true

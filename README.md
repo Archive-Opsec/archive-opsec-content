@@ -27,3 +27,9 @@ All entries are Markdown files with YAML frontmatter. Archive records should dis
 - Do not add placeholder organisations, fabricated events, invented statistics, or synthetic sources.
 
 The private site repository validates this content during its build. See [CONTRIBUTING.md](CONTRIBUTING.md) for the authoring workflow.
+
+## Ways to help
+
+- Submit a pull request with a complete, source-linked entry.
+- Open a [content proposal](https://github.com/Archive-Opsec/archive-opsec-content/issues/new?template=content-proposal.yml) for an idea you want reviewed first.
+- Report a factual problem using the [correction form](https://github.com/Archive-Opsec/archive-opsec-content/issues/new?template=correction.yml).
