@@ -18,12 +18,12 @@ dataCategories: ['Names', 'Contact information', 'Passport information', 'Reserv
 geographicScope: ['Global']
 sources:
   - title: 'Marriott International, Inc. enforcement action'
-    url: 'https://ico.org.uk/action-weve-taken/enforcement/marriott-international-inc/'
+    url: 'https://ico.org.uk/media/action-weve-taken/mpns/2618524/marriott-international-inc-mpn-20201030.pdf'
     publisher: 'Information Commissioner Office'
     kind: 'regulator'
     accessed: '2026-09-27'
   - title: 'Marriott 2018 data security incident information'
-    url: 'https://www.marriott.com/marriott/investor-relations/reports-and-filings/2018-data-security-incident.mi'
+    url: 'https://marriott.gcs-web.com/node/29251'
     publisher: 'Marriott International'
     kind: 'company'
     accessed: '2026-09-27'

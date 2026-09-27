@@ -18,7 +18,7 @@ dataCategories: ['Access and publication activity']
 geographicScope: ['Turkey']
 sources:
   - title: 'Wikipedia blocked in Turkey'
-    url: 'https://wikimediafoundation.org/news/2017/04/29/turkey-blocks-wikipedia/'
+    url: 'https://wikimediafoundation.org/news/2017/04/30/turkish-authorities-block-wikipedia/'
     publisher: 'Wikimedia Foundation'
     kind: 'ngo'
     accessed: '2026-09-27'
