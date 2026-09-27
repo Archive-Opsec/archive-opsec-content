@@ -7,7 +7,7 @@ eventDate: '2004-07-22'
 status: 'confirmed'
 verification: 'unchecked'
 lastVerified: '2026-09-27'
-summary: 'The 9/11 Commission Report is a primary government document describing the commission's findings, chronology, intelligence failures, and recommendations after the September 11 attacks.'
+summary: 'The 9/11 Commission Report is a primary government document describing the commission''s findings, chronology, intelligence failures, and recommendations after the September 11 attacks.'
 claims:
   - type: fact
     text: 'The commission published a public report containing findings and recommendations.'
