@@ -18,8 +18,8 @@ dataCategories: ['Names', 'Contact information', 'Passport information', 'Reserv
 geographicScope: ['Global']
 sources:
   - title: 'Marriott International, Inc. enforcement action'
-    url: 'https://ico.org.uk/media/action-weve-taken/mpns/2618524/marriott-international-inc-mpn-20201030.pdf'
-    publisher: 'Information Commissioner Office'
+    url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3022-marriott-international-inc-starwood-hotels-resorts-worldwide-llc-matter'
+    publisher: 'Federal Trade Commission'
     kind: 'regulator'
     accessed: '2026-09-27'
   - title: 'Marriott 2018 data security incident information'
