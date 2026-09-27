@@ -11,10 +11,10 @@ tags: ['network-privacy', 'wi-fi', 'vpn', 'https', 'threat-model']
 featured: false
 status: 'published'
 sources:
-  - title: 'HTTPS: Protecting your data from snoopers'
-    url: 'https://https.cio.gov/'
-    publisher: 'US Government'
-    kind: 'government'
+  - title: 'The Transport Layer Security Protocol Version 1.3'
+    url: 'https://www.rfc-editor.org/rfc/rfc8446'
+    publisher: 'IETF'
+    kind: 'standards'
     accessed: '2026-09-27'
   - title: 'Wi-Fi security guidance'
     url: 'https://consumer.ftc.gov/articles/how-secure-your-home-wi-fi-network'

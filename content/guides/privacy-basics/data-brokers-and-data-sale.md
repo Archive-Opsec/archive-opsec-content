@@ -12,7 +12,7 @@ featured: false
 status: 'published'
 sources:
   - title: 'Data brokers'
-    url: 'https://www.ftc.gov/business-guidance/privacy-security/data-brokers'
+    url: 'https://www.ftc.gov/system/files/documents/reports/data-brokers-call-transparency-accountability-report-federal-trade-commission-may-2014/140527databrokerreport.pdf'
     publisher: 'Federal Trade Commission'
     kind: 'regulator'
     accessed: '2026-09-27'
