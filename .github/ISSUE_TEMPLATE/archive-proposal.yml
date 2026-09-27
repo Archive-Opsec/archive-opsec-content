@@ -1,0 +1,64 @@
+name: Archive entry proposal
+description: Propose a documented breach, surveillance event, censorship event, law, incident, or research record.
+title: "[Archive] "
+labels: [archive-proposal, needs-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form starts a review. It does not publish an archive entry. Prefer primary records and separate facts from claims made by an organisation, government, or researcher.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - data-breaches
+        - surveillance
+        - censorship
+        - security-incidents
+        - privacy-laws
+        - corporate-privacy
+        - government-documents
+        - research-papers
+    validations:
+      required: true
+  - type: input
+    id: event_date
+    attributes:
+      label: Event date
+      description: Use YYYY, YYYY-MM, or YYYY-MM-DD when known.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Factual summary
+      description: Keep this short and distinguish what is documented from what is alleged.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Affected organisations, people, or data
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Include exact HTTPS links. List primary records first and explain what each source supports.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and copyright
+      options:
+        - label: I have not included secrets, personal data, private documents, or active-sensitive details.
+          required: true
+        - label: I have not copied an entire article or paywalled text.
+          required: true

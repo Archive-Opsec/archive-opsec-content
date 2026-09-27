@@ -13,3 +13,4 @@
 - [ ] Uncertainty is labelled honestly.
 - [ ] No secrets, personal data, private documents, or unpublished notes are included.
 - [ ] Frontmatter matches a nearby entry in the same collection.
+- [ ] For an archive entry, I completed `docs/ARCHIVE-REVIEW.md`.
