@@ -16,6 +16,10 @@ claims:
 affected: ['US government agencies and the public record of counterterrorism policy']
 dataCategories: ['Intelligence and security records']
 geographicScope: ['United States', 'International']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'The 9/11 Commission Report'
     url: 'https://9-11commission.gov/report/911Report.pdf'

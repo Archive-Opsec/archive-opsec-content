@@ -31,6 +31,11 @@ dataCategories:
 geographicScope:
   - 'European Union'
   - 'EEA, via the EEA Agreement'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['eu', 'x-eea']
+crossBorder: true
 sources:
   - title: 'Regulation (EU) 2016/679 (General Data Protection Regulation)'
     url: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj'

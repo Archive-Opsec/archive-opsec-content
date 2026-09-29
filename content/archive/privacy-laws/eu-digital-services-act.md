@@ -30,6 +30,11 @@ dataCategories:
   - 'Content submitted to, and actions taken by, providers of intermediary services'
 geographicScope:
   - 'European Union'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['eu', 'x-eea']
+crossBorder: true
 sources:
   - title: 'Regulation (EU) 2022/2065 (Digital Services Act)'
     url: 'https://eur-lex.europa.eu/eli/reg/2022/2065/oj'

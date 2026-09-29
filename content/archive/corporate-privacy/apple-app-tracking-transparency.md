@@ -16,6 +16,10 @@ claims:
 affected: ['Users of apps distributed through Apple platforms', 'App developers and advertisers']
 dataCategories: ['Advertising identifier', 'Cross-app activity signals']
 geographicScope: ['Apple platform users globally']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-tech', 'us']
+crossBorder: true
 sources:
   - title: 'AppTrackingTransparency framework documentation'
     url: 'https://developer.apple.com/documentation/apptrackingtransparency'

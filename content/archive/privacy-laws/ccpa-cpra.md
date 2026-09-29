@@ -30,6 +30,11 @@ dataCategories:
   - 'Sensitive personal information, including precise geolocation, social security numbers, and data concerning health, finances, and sexual orientation'
 geographicScope:
   - 'California, United States'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'California Civil Code, Title 1.81.5 — Consumer Privacy'
     url: 'https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&chapter=20.&part=4.&law_code=CIV&title=1.81.5.'

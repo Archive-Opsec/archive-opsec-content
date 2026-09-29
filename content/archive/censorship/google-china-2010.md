@@ -16,6 +16,10 @@ claims:
 affected: ['Google users in mainland China']
 dataCategories: ['Search queries and result access']
 geographicScope: ['China', 'Hong Kong']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['cn']
+crossBorder: false
 sources:
   - title: 'A new approach to China'
     url: 'https://googleblog.blogspot.com/2010/01/new-approach-to-china.html'

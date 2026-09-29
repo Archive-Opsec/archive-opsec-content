@@ -16,6 +16,10 @@ claims:
 affected: ['Starwood guests']
 dataCategories: ['Names', 'Contact information', 'Passport information', 'Reservation information']
 geographicScope: ['Global']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us', 'x-international']
+crossBorder: true
 sources:
   - title: 'Marriott International, Inc. enforcement action'
     url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/192-3022-marriott-international-inc-starwood-hotels-resorts-worldwide-llc-matter'

@@ -16,6 +16,10 @@ claims:
 affected: ['People represented in mobility datasets']
 dataCategories: ['Location traces', 'Mobility patterns']
 geographicScope: ['Study dataset scope']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'Unique in the Crowd: The privacy bounds of human mobility'
     url: 'https://doi.org/10.1038/srep01376'

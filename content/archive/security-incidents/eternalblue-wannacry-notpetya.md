@@ -27,6 +27,11 @@ dataCategories:
   - 'Not primarily a data exposure event. The risk was unauthorised access, which then creates the possibility of any subsequent data access.'
 geographicScope:
   - 'Global'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'CVE-2017-0144 — SMB Remote Code Execution Vulnerability'
     url: 'https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-0144'

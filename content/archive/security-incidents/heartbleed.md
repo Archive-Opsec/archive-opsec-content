@@ -29,6 +29,11 @@ dataCategories:
   - 'Server process memory, which could include private keys, session data, and credentials held in memory'
 geographicScope:
   - 'Global'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'OpenSSL Security Advisory, 7 April 2014: TLS heartbeat extension'
     url: 'https://www.openssl.org/news/secadv/20140407.txt'

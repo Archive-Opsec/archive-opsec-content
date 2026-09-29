@@ -34,6 +34,11 @@ dataCategories:
   - 'The published technical analyses concern the ability of the backdoor to pass through SSH authentication. No primary record establishes that it was used against a specific victim.'
 geographicScope:
   - 'Global'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'CVE-2024-3094'
     url: 'https://nvd.nist.gov/vuln/detail/CVE-2024-3094'

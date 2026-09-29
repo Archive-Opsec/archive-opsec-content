@@ -34,6 +34,11 @@ geographicScope:
   - 'Western Europe'
   - 'Australia'
   - 'New Zealand'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us', 'x-international']
+crossBorder: true
 sources:
   - title: 'Emergency Directive 21-01: Mitigate SolarWinds Orion Code Compromise'
     url: 'https://www.cisa.gov/news-events/directives/ed-21-01-mitigate-solarwinds-orion-code-compromise'

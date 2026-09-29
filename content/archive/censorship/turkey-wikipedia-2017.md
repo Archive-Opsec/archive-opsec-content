@@ -16,6 +16,10 @@ claims:
 affected: ['Wikipedia readers and editors in Turkey']
 dataCategories: ['Access and publication activity']
 geographicScope: ['Turkey']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['tr']
+crossBorder: false
 sources:
   - title: 'Wikipedia blocked in Turkey'
     url: 'https://wikimediafoundation.org/news/2017/04/30/turkish-authorities-block-wikipedia/'

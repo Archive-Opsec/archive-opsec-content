@@ -31,6 +31,11 @@ dataCategories:
   - 'Personal data as each statute defines it'
 geographicScope:
   - 'Colorado, Connecticut, Florida, Oregon, Texas, Utah, Virginia, and other US states'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'Virginia CDPA — Code of Virginia, Title 59.1-5200 et seq.'
     url: 'https://law.lis.virginia.gov/vacode/title59.1/chapter52/'

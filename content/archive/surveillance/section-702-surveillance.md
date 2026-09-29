@@ -16,6 +16,10 @@ claims:
 affected: ['People communicating with targeted persons or selectors']
 dataCategories: ['Communications', 'Associated metadata']
 geographicScope: ['United States', 'International communications']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'FISA Section 702 materials'
     url: 'https://www.intel.gov/foreign-intelligence-surveillance-act'

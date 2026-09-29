@@ -16,6 +16,10 @@ claims:
 affected: ['Signal users covered by the legal demand']
 dataCategories: ['Account creation time', 'Last connection time']
 geographicScope: ['United States']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'Signal and the subpoena'
     url: 'https://signal.org/bigbrother/'

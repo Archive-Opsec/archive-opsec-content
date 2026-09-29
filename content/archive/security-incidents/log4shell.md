@@ -32,6 +32,11 @@ dataCategories:
   - 'Not primarily a data exposure event. The risk was code execution, which then creates the possibility of any subsequent data access.'
 geographicScope:
   - 'Global'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'CVE-2021-44228'
     url: 'https://nvd.nist.gov/vuln/detail/CVE-2021-44228'

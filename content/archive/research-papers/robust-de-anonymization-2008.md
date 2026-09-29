@@ -16,6 +16,10 @@ claims:
 affected: ['People represented in sparse behavioural datasets']
 dataCategories: ['Ratings', 'Behavioural records', 'Sparse identifiers']
 geographicScope: ['Dataset-specific']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['x-international']
+crossBorder: false
 sources:
   - title: 'Robust De-anonymization of Large Sparse Datasets'
     url: 'https://doi.org/10.1109/SP.2008.33'

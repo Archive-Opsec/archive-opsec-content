@@ -28,6 +28,11 @@ dataCategories:
 geographicScope:
   - 'European Union'
   - 'United States'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['eu', 'x-eea', 'ie']
+crossBorder: true
 sources:
   - title: 'Judgment of 16 July 2018, Schrems v Data Protection Commissioner, C-311/18'
     url: 'https://curia.europa.eu/juris/liste.jsf?num=C-311/18&language=en'

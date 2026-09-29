@@ -27,6 +27,11 @@ dataCategories:
   - 'The DarkSide affiliate stated that approximately 100 gigabytes of data was stolen before encryption. The composition of that data has not been verified in a public primary record.'
 geographicScope:
   - 'Eastern United States'
+
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'Department of Justice Seizes $2.3 Million in Cryptocurrency Paid to the Ransomware Extortionists Darkside'
     url: 'https://www.justice.gov/archives/opa/pr/department-justice-seizes-23-million-cryptocurrency-paid-ransomware-extortionists-darkside'

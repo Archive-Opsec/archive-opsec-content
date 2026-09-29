@@ -16,6 +16,10 @@ claims:
 affected: ['Telephone subscribers whose metadata was included in provider records']
 dataCategories: ['Telephone metadata']
 geographicScope: ['United States']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'Report on the Telephone Records Program Conducted under Section 215'
     url: 'https://documents.pclob.gov/prod/Documents/OversightReport/1/Report_on_the_Telephone_Records_Program.pdf'

@@ -16,6 +16,10 @@ claims:
 affected: ['Equifax customers and applicants']
 dataCategories: ['Names', 'Contact information', 'Government identifiers', 'Credit information']
 geographicScope: ['United States']
+# Structured jurisdiction, from src/data/jurisdictions.json. Drives the region and
+# country filters; geographicScope above stays as the prose record.
+jurisdictions: ['us']
+crossBorder: false
 sources:
   - title: 'Equifax data breach settlement and consumer information'
     url: 'https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement'
