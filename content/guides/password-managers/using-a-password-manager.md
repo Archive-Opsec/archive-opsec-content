@@ -14,7 +14,24 @@ sources:
     url: 'https://pages.nist.gov/800-63-3/sp800-63b.html'
     publisher: 'National Institute of Standards and Technology'
     kind: 'standards'
+    note: 'Requires screening new passwords against a blocklist that includes passwords from previous breach corpuses.'
     accessed: '2026-09-27'
+  - title: 'ITSP.30.035: Strategies for Protecting Against Credential Stuffing Attacks'
+    url: 'https://www.cyber.gc.ca/sites/default/files/cyber/2022-01/ITSP-30-035-Strategies-for-protecting-against-credential-stuffing-attacks_e.pdf'
+    publisher: 'Canadian Centre for Cyber Security'
+    kind: 'government'
+    note: 'Treats credential stuffing as an attack distinct from password guessing, with its own mitigations.'
+    accessed: '2026-10-05'
+  - title: 'Advisory: Use of Credential Stuffing Tools'
+    url: 'https://www.ncsc.gov.uk/sites/default/files/documents/Credential%20stuffing%20advisory.pdf'
+    publisher: 'UK National Cyber Security Centre'
+    kind: 'government'
+    accessed: '2026-10-05'
+  - title: 'Credential Stuffing Prevention Cheat Sheet'
+    url: 'https://cheatsheetseries.owasp.org/cheatsheets/Credential_Stuffing_Prevention_Cheat_Sheet.html'
+    publisher: 'OWASP'
+    kind: 'documentation'
+    accessed: '2026-10-05'
   - title: 'Bitwarden Security Whitepaper'
     url: 'https://bitwarden.com/help/bitwarden-security-white-paper/'
     publisher: 'Bitwarden'
@@ -44,13 +61,22 @@ buried under privacy advice and therefore ignored.
 
 Attackers do not guess passwords. They take credentials from one breach and try them
 everywhere, because the probability that a given person's password is reused somewhere
-else is high enough to make it profitable. A
-[breach corpus](/archive/data-breaches/collection-one/) assembled from thousands of
+else is high enough to make it profitable. A breach corpus assembled from thousands of
 services is not a set of passwords you could brute-force; it is a lookup table.
 
-[Collection #1](/archive/data-breaches/collection-one/) is the reference case: a set of
-credential pairs across millions of accounts, offered for sale. Its existence is the
-argument for unique passwords, in a way no statistic about password strength is.
+Credential stuffing is the technique this describes, and it is the reason reuse is the
+problem rather than a habit worth discouraging gently. National CERT guidance treats it as
+a distinct attack with its own mitigations rather than as a variant of guessing: because
+the attacker already holds valid pairs, rate limiting alone does not help much, and the
+mitigation that matters is a second factor the leaked pair does not contain.
+
+Compromised pairs are not exotic either. NIST requires verifiers to screen new passwords
+against a blocklist that explicitly includes "passwords obtained from previous breach
+corpuses", which is an acknowledgement that these lists are large, widely circulated and
+worth checking against.
+
+Together those are the argument for unique passwords, in a way no statistic about password
+strength is.
 
 :::note
 NIST's guidance is explicit on several points that common advice gets wrong: permit

@@ -51,8 +51,9 @@ registered with the service. Logging in means proving possession, not proving kn
 perfectly convincing clone of a login page harvests nothing.
 
 **There is no secret to reuse or leak.** A database breach exposes public keys, which are
-not secret and not useful. The class of [credential stuffing](/archive/data-breaches/collection-one/)
-effectively disappears for passkey accounts.
+not secret and not useful. The class of attack that relies on credential stuffing
+effectively disappears for passkey accounts, because there is no password to put into
+another site's login form.
 
 **No shared secret to phish.** There is nothing for a proxy to relay, so a real-time
 phishing proxy cannot produce a valid challenge response.

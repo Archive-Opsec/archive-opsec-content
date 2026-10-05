@@ -64,7 +64,7 @@ unreadable. It is the single most effective control against device loss and thef
 - **An attacker with your account.** Signing in defeats it entirely.
 - **Someone who can observe the screen or capture keystrokes.**
 - **A hostile administrator of the device while it is running.** This is why
-  [hardening](/guides/hardening-basics/) exists alongside encryption.
+  [hardening](/guides/operating-systems/hardening-basics/) exists alongside encryption.
 - **A weak master password.** The disk is only as strong as the passphrase protecting the
   key.
   :::
